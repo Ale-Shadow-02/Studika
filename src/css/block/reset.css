@@ -1,0 +1,11 @@
+.title {
+    text-transform: uppercase;
+    color: rgb(82, 138, 68);
+}
+
+@media (max-width: 992px) {
+    title {
+        font-size: 50px;
+        color: #fff;
+    }
+}

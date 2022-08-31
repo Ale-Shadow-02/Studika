@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #cc5c5c;
+    font-size: 22px;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+    body {
+        background: #000;
+        color: #fff;
+    }
+}
+
+
+
+@import "block/title.css";

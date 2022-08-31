@@ -1,0 +1,34 @@
+.footer {
+    position: relative;
+    &__icon {
+        &-top {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            position: fixed;
+            bottom: 10%;
+            right: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transform: scale(0);
+            transition: 0.34s linear;
+            &:hover {
+                & img {
+                    top: 0;
+                    transition: 0.3s;
+                }
+            }
+        }
+        &-arrow {
+            position: relative;
+            top: 40%;
+            transition: 0.3s;
+        }
+    }
+}
+#btn.fixed {
+    transform: scale(1);
+}

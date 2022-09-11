@@ -1,22 +1,40 @@
 <header class="header lock-padding" id="header">
     <div class="header__container">
-        <a href="index.html" class="header__logo">
-            <img src="img/logo.svg" alt="LOGO">
-        </a>
+        <div class="wrap__logo">
+            <a href="/" class="header__logo">
+                <img src="img/logo.png" alt="LOGO">
+            </a>
+            <div class="header__location">
+                <div class="header__location-map">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="header__location-city">
+                    Москва
+                </div>
+            </div>
+        </div>
         <div class="header__menu menu">
             <div class="menu__icon">
                 <span></span>
             </div>
             <nav class="menu__body">
-                <ul class="menu__list">
-                    <li><a href="/" class="menu__link">Главная</a></li>
-                    <li><a href="#" class="menu__link">Услуги</a></li>
-                    <li><a href="#" class="menu__link">Контакты</a></li>
-                    <li><a href="#" class="menu__link">Privacy</a></li>
-                    <li><a href="#" class="btn popup-link">Заказать</a></li>
-                </ul>
+                <form class="form__search">
+                    <div class="form__search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <input type="text" class="form__search-input" name="search" id="search" placeholder="Учебное заведение, специальность или профессия">
+                </form>
             </nav>
         </div>
-        <a href="tel:8482777739" class="menu__link-phone">(8482) 77-77-39</a>
+        <div class="header__account">
+            <div class="header__account-favorites favorites">
+                <div class="favorites__icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="favorites__counter">1</div>
+            </div>
+            <div class="header__account-lk lk">
+                <div class="lk__user">Екатерина</div>
+                <div class="lk__user-img">
+                    <img src="img/avatar.png" alt="Иконка пользователя">
+                </div>
+            </div>
+        </div>
     </div>
 </header>
